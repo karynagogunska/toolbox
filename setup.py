@@ -13,5 +13,5 @@ setup(name='toolbox',
       test_suite='tests',
       # include_package_data: to install data from MANIFEST.in
       include_package_data=True,
-      scripts=['scripts/toolbox-run'],
+      scripts=['scripts/toolbox-run','scripts/load_clean_data'],
       zip_safe=False)
